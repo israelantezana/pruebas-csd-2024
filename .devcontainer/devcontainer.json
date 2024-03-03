@@ -44,7 +44,7 @@
     "containerUser": "codespace",
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    // "forwardPorts": [],
+    // "forwardPorts": [1234],
 
     // Configure tool-specific properties.
     "customizations": {
