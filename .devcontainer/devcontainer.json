@@ -31,7 +31,12 @@
 
     //install project dependecies and library xvfb for cypress
     //"postCreateCommand": "npm install",
-    "postCreateCommand": "sh .devcontainer/post-create.sh",
+    //"postCreateCommand": "sh .devcontainer/post-create.sh",
+    "postCreateCommand": {
+        "install-dependecies": "npm install",
+        "update-system": "sudo apt update",
+        "install-xvfb": "sudo apt install xvfb"
+    },
 
     // Configure tool-specific properties.
     "customizations": {
