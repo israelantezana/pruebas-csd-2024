@@ -1,5 +1,4 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {
             "username": "codespace",
@@ -44,7 +43,7 @@
     "containerUser": "codespace",
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    "forwardPorts": [1234],
+    "forwardPorts": ["1234:1234"],
 
     // Configure tool-specific properties.
     "customizations": {
