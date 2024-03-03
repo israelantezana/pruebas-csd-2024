@@ -30,7 +30,8 @@
     "forwardPorts": [1234],
 
     //install project dependecies and library xvfb for cypress
-    "postCreateCommand": "npm install",
+    //"postCreateCommand": "npm install",
+    "postCreateCommand": "sh .devcontainer/post-create.sh",
 
     // Configure tool-specific properties.
     "customizations": {
