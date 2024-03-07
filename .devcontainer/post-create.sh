@@ -8,4 +8,4 @@ npm install
 sudo apt update
 
 # install xvfb for cypress
-sdup apt install xvfb
+sudo apt install xvfb
