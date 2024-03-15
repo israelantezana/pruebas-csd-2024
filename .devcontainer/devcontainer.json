@@ -31,7 +31,8 @@
 
     //install project dependecies and library xvfb for cypress
     //"postCreateCommand": "npm install",
-    "postCreateCommand": "sh .devcontainer/post-create.sh",
+    //** para actualizar e instalar dependencias para cypress descomentar sgte linea:
+    //"postCreateCommand": "sh .devcontainer/post-create.sh",
     //"postCreateCommand": {
     //    "install-dependecies": "npm install",
     //    "update-system": "sudo apt update",
